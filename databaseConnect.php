@@ -13,7 +13,7 @@ try
     PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
     // other options 
     );
-    $DB_con = new PDO($dsn, $user, $pass, $opt);
+    $db = new PDO($dsn, $user, $pass, $opt);
 }
 catch(PDOException $e)
 {
