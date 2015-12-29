@@ -16,9 +16,6 @@ try
     // other options 
     );
     $DB_con = new PDO($dsn, $user, $pass, $opt);
-    $statement = $DB_con->query("SELECT * FROM users");
-    $row = $statement->fetch(PDO::FETCH_ASSOC);
-    echo htmlentities($row['user_name']);
 }
 catch(PDOException $e)
 {
