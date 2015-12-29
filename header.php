@@ -1,8 +1,5 @@
 <?php 
-ini_set('display_errors',1);
-ini_set('error_reporting', E_ALL); // Add this line if you want to show even the slightest problem! 
-
-require_once 'databaseConnect.php'; 
+require_once 'init.php'; 
 ?>
 
 <!DOCTYPE html>
