@@ -11,6 +11,9 @@ body{
     background-attachment: fixed;
     background-color: #dbe6e0;
 }
+.navbar{
+    font-size: 1em;
+}
 
 .jumbotron {
   text-align: center;

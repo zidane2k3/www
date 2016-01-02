@@ -30,11 +30,11 @@ $css = rand();
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Eximia</a>
+          <a class="navbar-brand" href="index.php">Eximia</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 		  <ul class="nav navbar-nav">
-            <li class="active"><a href="http://www.eximia.co.uk">Forum</a></li>
+            <li class="active"><a href="/forum.php">Forum</a></li>
             <li><a href="officer.php">Officer Application</a></li>
             <li><a href="contact.php">Contact</a></li>
           </ul>
