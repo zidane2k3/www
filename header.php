@@ -29,7 +29,8 @@ $css = rand();
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>
+          </button>            
+          <img class="pull-left brand" alt="Brand" src="../img/logo.png">
           <a class="navbar-brand" href="index.php">Eximia</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
