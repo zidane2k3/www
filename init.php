@@ -10,5 +10,7 @@ require_once'classes/SubCategory.php';
 $sub_Category = new SubCategory($db);
 require_once'classes/Topic.php';
 $topics = new Topic($db);
+require_once'classes/Post.php';
+$posts = new Post($db);
 
 ?>

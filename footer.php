@@ -1,4 +1,23 @@
-          
+        </div>
+        <div class="col-md-2">
+            <div class="player-profile">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div id="class-image">
+                            <img src="../img/cleric.png">
+                        </div>
+                    </div>
+                    <div class="col-md-9 profile-name">
+                        George-Face
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="player-image">
+                        <img src="../img/george.png">
+                    </div></div>
+        </div>
+    </div>
+</div>          
 		  <div class="footer">
             <div class="inner">
               <p>&copy Eximia.co.uk </p>

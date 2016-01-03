@@ -4,7 +4,6 @@
 $categories = $category->getAll();
 ?>
 <!-- Begin Forum -->
-<div class="container">
 <div class="forum">
     <!-- Loop over each category -->
     <?php foreach ($categories as $category){ ?>
@@ -20,11 +19,12 @@ $categories = $category->getAll();
         $subCategories = $sub_Category->getByParentId($category['id']);
         foreach ($subCategories as $subCategory){?>      
             <div class="row" id="subcategories">
-                <div class="col-md-7"><h5><img id="forumPic" src="../img/MBB_backstageforum.jpg"><?=$subCategory['name']?></$?><br></h5>
+                <div class="col-md-7"><h5><img id="forumPic" src="../img/MBB_backstageforum.jpg"><?=$subCategory['name']?><br></h5>
                 <h6><?=$subCategory['description']?></h6></div>
                 <div class="col-md-1"><h5><?=$topics->getTopicCount($subCategory['id']) ?></h5></div>
-                <div class="col-md-1"><h5>NumOfPost</h5></div>
-                <div class="col-md-3"><h5>DetailsOfLastPost</h5></div>
+                <div class="col-md-1"><h5><?=$posts->getPostCount($subCategory['id'])?></h5></div>
+                <?php $lastPost = $posts->getLastPost($subCategory['id'])?>
+                <div class="col-md-3"><h5><?=$lastPost['title']?></h5></div>
             </div>
             <?php if($subCategory === end($subCategories)){
                 // do nothing as we want to stop CSS from rendering the <hr> tag.//
@@ -46,5 +46,4 @@ $categories = $category->getAll();
      <?php } ?>
    <?php } ?>
 </div>
-</div>	
 <?php require_once("footer.php"); ?>

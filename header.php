@@ -51,3 +51,6 @@ $css = rand();
 				</div><!--/.navbar-collapse -->
       </div>
     </nav>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-1">

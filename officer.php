@@ -2,10 +2,8 @@
 $title = "Officer Application";
 ?>
 
+<div class="officer">
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
             <div class="jumbotron">
                 <h2>Recruitment is open!</h2>
                 <p class="lead">After some thought, the decision was made to introduce some structure into the Guild. This is being rolled out with the introduction of Officers!
@@ -82,9 +80,6 @@ $title = "Officer Application";
                     </div>
                     </form>
            </div>
-        </div>
-    </div>
-</div> 
-                                                                                       </div>
 
+</div>
 <?php require_once("footer.php");
