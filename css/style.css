@@ -159,13 +159,19 @@ hr{
 
 
 #space{
-	background-color: #DBE6E0;
+	background-color: #dbe6e0;
 	height: 10px;
+    opaque: .8;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 #smallSpace{
-	background-color: #DBE6E0;
+	background-color: #dbe6e0;
+    opaque: .8;
 	height: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 #forumPic{

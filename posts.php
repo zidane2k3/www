@@ -2,7 +2,9 @@
 <div class="container">
 <div class="forum">
 	<div class="row" id="topicTitle">
-		<div class="col-md-12"><h4>TopicTitle</h4></div>
+		<div class="col-md-10"><h4>TopicTitle</div>
+        <div class="col-md-2" id="topicDetails">UserName SubmitDate</div>   
+            
 	</div>
 	<div class="row" id="smallSpace">
 		<div class="col-md-12"></div>
