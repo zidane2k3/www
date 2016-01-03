@@ -127,13 +127,19 @@ hr{
 
 
 #space{
-	background-color: #DBE6E0;
+	background-color: #dbe6e0;
 	height: 10px;
+    opaque: .8;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 #smallSpace{
-	background-color: #DBE6E0;
+	background-color: #dbe6e0;
+    opaque: .8;
 	height: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 #forumPic{
@@ -161,7 +167,7 @@ hr{
     padding-right: 7px;
     padding-bottom: 7px;
     padding-left: 7px;
-    background-color: background-color:rgba(255,0,0,1);;
+    background-color: background-color:rgba(255,0,0,1);
         
 }
 
