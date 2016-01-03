@@ -1,5 +1,5 @@
 <?php require_once("header.php"); 
-$title = "Officer Application";
+$title = "Eximia - Home";
 ?>
                                                                           
 <?php require_once("footer.php");

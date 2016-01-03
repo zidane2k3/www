@@ -1,7 +1,4 @@
 <?php
-ini_set('display_errors',1);
-ini_set('error_reporting', E_ALL); // Add this line if you want to show even the slightest problem! 
-
 require_once 'header.php';
 
 if($user->is_loggedin()!="")
@@ -60,16 +57,7 @@ if(isset($_POST['btn-signup']))
 }
 
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Registration</title>
-		<base href="http://officer.eximia.co.uk">
-<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"  />
-<link rel="stylesheet" href="style.css" type="text/css"  />
-</head>
-<body>
+
 <div class="container">
      <div class="form-container">
         <form method="post">
@@ -115,6 +103,4 @@ if(isset($_POST['btn-signup']))
         </form>
        </div>
 </div>
-
-</body>
-</html>
+<?php require_once('footer.php'); ?>

@@ -2,7 +2,7 @@
 body{
 	margin: 0px;
     padding-top: 65px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     background-color: #dbe6e0;
     background-image: url(../img/background3.jpg);
     background-repeat: no-repeat;
@@ -45,6 +45,7 @@ body{
    background-color: white;
    size: 100%;
    border-radius:10px;
+    opacity: .8
     
 }
 
@@ -117,7 +118,6 @@ hr{
 	margin-right: 30px;
 }
 
-hr:last-of-type{}
 
 #space{
 	background-color: #DBE6E0;
@@ -130,15 +130,10 @@ hr:last-of-type{}
 }
 
 #forumPic{
-	width: 30px; 
-	height: 30px;
+	width: 23px; 
+	height: 23px;
 	margin-left: 5px;
 	margin-right: 5px;
-}
-
-#forumPic1{
-	width: 30px; 
-	height: 30px;
 }
 
 #userPicture{
@@ -159,6 +154,7 @@ hr:last-of-type{}
     padding-right: 7px;
     padding-bottom: 7px;
     padding-left: 7px;
+    background-color: background-color:rgba(255,0,0,1);;
         
 }
 
